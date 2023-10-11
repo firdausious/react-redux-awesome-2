@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import CounterWithStateManagement from "./features/Counter";
+import CounterWithStateManagement from "./features/counter/Counter";
+import UsersList from "./features/users/UsersList"
 
 type CounterProps = {
   init: number
@@ -30,6 +31,8 @@ const App = () => {
 
   return (
     <>
+      <UsersList /> 
+      ----
       <CounterWithStateManagement />
       -----
       <Counter1 init={INITIAL_COUNTER} />

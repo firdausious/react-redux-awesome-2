@@ -7,6 +7,9 @@ dependencies:
   '@types/redux-logger':
     specifier: ^3.0.10
     version: 3.0.10
+  alova:
+    specifier: ^2.13.1
+    version: 2.13.1
   loader-utils:
     specifier: 3.2.1
     version: 3.2.1
@@ -2952,6 +2955,11 @@ packages:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
       uri-js: 4.4.1
+    dev: false
+
+  /alova@2.13.1:
+    resolution: {integrity: sha512-VCqei7HWP2leslNHrF0CjLBUUlUdpHebnS8ronm4Qh19jzLYcRLCXx+D9XRaPuutgrDJa10qD11ZB/Egs0bM4Q==}
+    engines: {node: '>= 0.12.0'}
     dev: false
 
   /ansi-escapes@4.3.2:
